@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/favMenu"
+        android:title="Favorite"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_fav_white"/>
+
+    <item android:id="@+id/cameraMenu"
+        android:title="Camera"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_camera"/>
+
+</menu>
